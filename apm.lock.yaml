@@ -1,0 +1,307 @@
+lockfile_version: '1'
+apm_version: 0.30.0
+dependencies:
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: memory-system
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: packages/memory-system
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/hooks/memory-system-memory-validation.json
+  - .github/hooks/scripts/memory-system/scripts/validate-memory.ps1
+  deployed_file_hashes:
+    .github/hooks/memory-system-memory-validation.json: sha256:ae862b0dea609a6e2620075c2a6ad471f9d7d703af43e3ec6bd4156c41ebc092
+    .github/hooks/scripts/memory-system/scripts/validate-memory.ps1: sha256:fedccab95dd75998343b4e2e6233542d63c80e40e0b83d6d0f6ad35044063315
+  content_hash: sha256:6a128c69f3ee36a7c6cbf97f67fc493961451890fbdcd7790a3131bc305b0349
+  declared_license: MIT
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: token-efficiency
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 0.1.0
+  virtual_path: packages/token-efficiency
+  is_virtual: true
+  package_type: apm_package
+  content_hash: sha256:75d28d103493f7d552ba5db86224cff23695a241c5a55adb922c12bb546acea2
+  declared_license: MIT
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-conflict-resolver
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/agents/memory-conflict-resolver.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory-conflict-resolver.agent.md
+  deployed_file_hashes:
+    .github/agents/memory-conflict-resolver.agent.md: sha256:46a6ef70729f74de32dd716050d633fcf111788034e731dd4c3db91c1a0b1e97
+  content_hash: sha256:0ce595feee5e2e31d4064b54265e1a84c99b627435c050004e27efc8cc1fa6e6
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-deep-analyzer
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/agents/memory-deep-analyzer.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory-deep-analyzer.agent.md
+  deployed_file_hashes:
+    .github/agents/memory-deep-analyzer.agent.md: sha256:8177d8b70fe0e59050fac9029c4685996a38303dd891dea195a45ad211edcd3f
+  content_hash: sha256:e13f01856ec4992e70b473429af9b2f9cea5af7753cdbf62daabcab5a6fe8e5c
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-file-splitter
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/agents/memory-file-splitter.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory-file-splitter.agent.md
+  deployed_file_hashes:
+    .github/agents/memory-file-splitter.agent.md: sha256:d304d95e99ef2ebf7931137d14e73bd77aaea083fe2be8f3e0736a95e1a1fe07
+  content_hash: sha256:ad1325d3159d8402b22099a4c028f790c86371ef664cdb6a6af13c76e5d05004
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-fixer
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/agents/memory-fixer.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory-fixer.agent.md
+  deployed_file_hashes:
+    .github/agents/memory-fixer.agent.md: sha256:55fa0c2a20d3bf9e38d629e09729260e1a3f10758145a75c4327df1acab1240d
+  content_hash: sha256:d54bd4a03dee52a87c260189041051a6181d58205d5954c8b87ea80be299405f
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-importer
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/agents/memory-importer.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory-importer.agent.md
+  deployed_file_hashes:
+    .github/agents/memory-importer.agent.md: sha256:9a82507bf62aeb913eb841bab7caa3c21ec5eef92b7a51ae89d3ba828f9251b2
+  content_hash: sha256:c11515f5d4c311c9e55f34bfacb027b79ddefd9eb353d7f4f7ba2c3b6c807e32
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-reviewer
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/agents/memory-reviewer.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/memory-reviewer.agent.md: sha256:8a276f33c34a8a6699135ec1951ce1d991a9bd13d9be5025c9e960d7b455e30b
+  content_hash: sha256:c5bb33a08d3909f8375cf51b9f3e4034e4b455bf8d010e31bb466313b4fceda0
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-memory-system
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/instructions/memory-system.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/memory-system.instructions.md
+  deployed_file_hashes:
+    .github/instructions/memory-system.instructions.md: sha256:a823da0acf9c0a8a499d554f9c2cca5299ab95022b70a30a23d38149877aea56
+  content_hash: sha256:013a3ac9b2a7cf744455e2f1b23fda339bceee5d0ab1ad3e9edef65e7b1e2703
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: memory-bootstrap
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: unknown
+  virtual_path: .github/skills/memory-bootstrap
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/memory-bootstrap
+  - .agents/skills/memory-bootstrap/SKILL.md
+  - .agents/skills/memory-bootstrap/templates/INDEX.md
+  - .agents/skills/memory-bootstrap/templates/README.md
+  deployed_file_hashes:
+    .agents/skills/memory-bootstrap/SKILL.md: sha256:27a94f64afad5ffacec5c398059adb1a6319be319c7405e266381c19ec7efa23
+    .agents/skills/memory-bootstrap/templates/INDEX.md: sha256:38be5f0908677273874ecd65b764299303bd036c757840eebec306f89a19a548
+    .agents/skills/memory-bootstrap/templates/README.md: sha256:43485b891a74f32bb8b84183f8aec7bdfcdd5efb283edb145f8ab97cb642d275
+  content_hash: sha256:408cf854aa6e4b5a778bf030f7a0f59ea361fbba0435e1413a0926d2490610bd
+- repo_url: redliuk/agentic-coding
+  materialization_repo_url: redliuk/Agentic-Coding
+  name: Agentic-Coding-token-efficiency
+  host: github.com
+  resolved_commit: 09f074b523397ca2a2be777c42cb1b5677ebf7a0
+  version: 1.0.0
+  virtual_path: .github/instructions/token-efficiency.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: redliuk/Agentic-Coding
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/token-efficiency.instructions.md
+  deployed_file_hashes:
+    .github/instructions/token-efficiency.instructions.md: sha256:43838b2bbf6904592b2529fa9921efd03c9d5f0f9b360224f6b8992d91124567
+  content_hash: sha256:a51e42a6e25ab50c158fad1a58d7b0ab36f54756952c3efffe6565b4b113b850
+deployments:
+- kind: project-relative
+  target: copilot
+  value: .github/agents/memory-conflict-resolver.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/agents/memory-conflict-resolver.agent.md
+  active_owner: redliuk/agentic-coding/.github/agents/memory-conflict-resolver.agent.md
+  content_hash: sha256:46a6ef70729f74de32dd716050d633fcf111788034e731dd4c3db91c1a0b1e97
+- kind: project-relative
+  target: copilot
+  value: .github/agents/memory-deep-analyzer.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/agents/memory-deep-analyzer.agent.md
+  active_owner: redliuk/agentic-coding/.github/agents/memory-deep-analyzer.agent.md
+  content_hash: sha256:8177d8b70fe0e59050fac9029c4685996a38303dd891dea195a45ad211edcd3f
+- kind: project-relative
+  target: copilot
+  value: .github/agents/memory-file-splitter.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/agents/memory-file-splitter.agent.md
+  active_owner: redliuk/agentic-coding/.github/agents/memory-file-splitter.agent.md
+  content_hash: sha256:d304d95e99ef2ebf7931137d14e73bd77aaea083fe2be8f3e0736a95e1a1fe07
+- kind: project-relative
+  target: copilot
+  value: .github/agents/memory-fixer.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/agents/memory-fixer.agent.md
+  active_owner: redliuk/agentic-coding/.github/agents/memory-fixer.agent.md
+  content_hash: sha256:55fa0c2a20d3bf9e38d629e09729260e1a3f10758145a75c4327df1acab1240d
+- kind: project-relative
+  target: copilot
+  value: .github/agents/memory-importer.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/agents/memory-importer.agent.md
+  active_owner: redliuk/agentic-coding/.github/agents/memory-importer.agent.md
+  content_hash: sha256:9a82507bf62aeb913eb841bab7caa3c21ec5eef92b7a51ae89d3ba828f9251b2
+- kind: project-relative
+  target: copilot
+  value: .github/agents/memory-reviewer.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/agents/memory-reviewer.agent.md
+  active_owner: redliuk/agentic-coding/.github/agents/memory-reviewer.agent.md
+  content_hash: sha256:8a276f33c34a8a6699135ec1951ce1d991a9bd13d9be5025c9e960d7b455e30b
+- kind: project-relative
+  target: copilot
+  value: .github/hooks/memory-system-memory-validation.json
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/packages/memory-system
+  active_owner: redliuk/agentic-coding/packages/memory-system
+  content_hash: sha256:ae862b0dea609a6e2620075c2a6ad471f9d7d703af43e3ec6bd4156c41ebc092
+- kind: project-relative
+  target: copilot
+  value: .github/hooks/scripts/memory-system/scripts/validate-memory.ps1
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/packages/memory-system
+  active_owner: redliuk/agentic-coding/packages/memory-system
+  content_hash: sha256:fedccab95dd75998343b4e2e6233542d63c80e40e0b83d6d0f6ad35044063315
+- kind: project-relative
+  target: copilot
+  value: .github/instructions/memory-system.instructions.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/instructions/memory-system.instructions.md
+  active_owner: redliuk/agentic-coding/.github/instructions/memory-system.instructions.md
+  content_hash: sha256:a823da0acf9c0a8a499d554f9c2cca5299ab95022b70a30a23d38149877aea56
+- kind: project-relative
+  target: copilot
+  value: .github/instructions/token-efficiency.instructions.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/instructions/token-efficiency.instructions.md
+  active_owner: redliuk/agentic-coding/.github/instructions/token-efficiency.instructions.md
+  content_hash: sha256:43838b2bbf6904592b2529fa9921efd03c9d5f0f9b360224f6b8992d91124567
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/memory-bootstrap
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/skills/memory-bootstrap
+  active_owner: redliuk/agentic-coding/.github/skills/memory-bootstrap
+  content_hash: null
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/memory-bootstrap/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/skills/memory-bootstrap
+  active_owner: redliuk/agentic-coding/.github/skills/memory-bootstrap
+  content_hash: sha256:27a94f64afad5ffacec5c398059adb1a6319be319c7405e266381c19ec7efa23
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/memory-bootstrap/templates/INDEX.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/skills/memory-bootstrap
+  active_owner: redliuk/agentic-coding/.github/skills/memory-bootstrap
+  content_hash: sha256:38be5f0908677273874ecd65b764299303bd036c757840eebec306f89a19a548
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/memory-bootstrap/templates/README.md
+  runtime: null
+  scope: project
+  owners:
+  - redliuk/agentic-coding/.github/skills/memory-bootstrap
+  active_owner: redliuk/agentic-coding/.github/skills/memory-bootstrap
+  content_hash: sha256:43485b891a74f32bb8b84183f8aec7bdfcdd5efb283edb145f8ab97cb642d275

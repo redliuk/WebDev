@@ -1,0 +1,23 @@
+
+# APM dependencies
+apm_modules/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+.env*.local
+
+# Deploy
+.vercel
+.netlify
+
+# OS
+.DS_Store
+Thumbs.db

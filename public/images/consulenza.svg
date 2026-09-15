@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900" role="img" aria-label="Illustrazione del banco di consulenza">
+  <rect width="900" height="900" fill="#f7f3ea"/>
+  <circle cx="450" cy="380" r="260" fill="#e7ecdf"/>
+  <g fill="#1d4a2e">
+    <path d="M260 700h380v40a20 20 0 0 1-20 20H280a20 20 0 0 1-20-20z"/>
+    <rect x="300" y="560" width="300" height="140" rx="18" opacity="0.85"/>
+  </g>
+  <g fill="#b4593c">
+    <path d="M380 520h60v40h-60z"/>
+    <circle cx="410" cy="470" r="56"/>
+  </g>
+  <g fill="#2f6b45">
+    <path d="M520 560c0-70 30-110 90-120-4 66-34 106-90 120Z"/>
+  </g>
+  <g stroke="#8ca88f" stroke-width="6" fill="none">
+    <circle cx="640" cy="260" r="46"/>
+    <path d="M674 294l40 40" stroke-linecap="round"/>
+  </g>
+</svg>

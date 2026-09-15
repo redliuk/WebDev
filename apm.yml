@@ -1,0 +1,17 @@
+name: WebDev
+version: 1.0.0
+description: APM project for WebDev
+author: luca comparini
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-build, hermes, kiro, opencode, vscode, windsurf
+targets:
+  - copilot
+dependencies:
+  apm:
+    - redliuk/Agentic-Coding/packages/memory-system
+    - redliuk/Agentic-Coding/packages/token-efficiency
+    - github/awesome-copilot/skills/web-design-reviewer
+  mcp: []
+includes: auto
+scripts: {}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4a2e"/>
+      <stop offset="1" stop-color="#16241c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.18" fill="#8ca88f">
+    <circle cx="1040" cy="120" r="220"/>
+    <circle cx="140" cy="560" r="180"/>
+  </g>
+  <g transform="translate(90 200)" fill="#f7f3ea" font-family="Georgia, serif">
+    <text font-size="42" letter-spacing="10" fill="#8ca88f">ERBORISTERIA · LAVAGNA</text>
+    <text y="120" font-size="104">Bio&amp;Natura</text>
+    <text y="200" font-size="40" fill="#e7e0cf" font-family="Helvetica, Arial, sans-serif">Fitoterapia · Cosmesi naturale · Naturopatia</text>
+    <text y="270" font-size="30" fill="#b9c9b6" font-family="Helvetica, Arial, sans-serif">Via Roma 143, Lavagna (GE) · 0185 189845</text>
+  </g>
+</svg>
